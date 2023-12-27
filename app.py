@@ -14,4 +14,4 @@ def download():
     ytdict=yt(url) # Dictionary / JSON data containing URL Object 
     return render_template("download.html",yt=ytdict)
 
-app.run(host='0.0.0.0',port=8080,debug=True)
+app.run(host='0.0.0.0',debug=True,port=80)
